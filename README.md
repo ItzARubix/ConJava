@@ -1,5 +1,5 @@
 # Artifacts
-A lightweight, multipurpose, and under construction Java package.
+A lightweight, multipurpose, Java package (that is currently under construction).
 
 **Artifacts** is a very simple Java package designed to increase project speed by implementing the methods that you _could_ program, but would really rather not. 
 
