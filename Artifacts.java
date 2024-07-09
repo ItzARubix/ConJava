@@ -12,21 +12,9 @@ public class Artifacts {
 
 	}
 
-	/*
-	public static <T> T[] revArray(T[] theInput) {
-
-		int arraySize = theInput.length;
-		T[] theOutput = new T[arraySize];
-		for(int i = 0; i<arraySize; i++) {
-			theOutput[i] = theInput[arraySize-i];
-		}
-		return theOutput;
-
-	}
-	*/
-
 	public static Object[] revArray (Object[] theInput) {
 
+		//Method only works with objects, arrays like int[] won't work, unfortunately
 		int arraySize = theInput.length;
 		Object[] theOutput = new Object[arraySize];
 		for(int i = 0; i<arraySize; i++) {
