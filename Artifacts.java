@@ -100,4 +100,15 @@ public class Artifacts {
 		
 	}
 	
+	public static char[] revArray (char[] theInput) {
+		
+		int arraySize = theInput.length;
+		char[] theOutput = new char[arraySize];
+		for(int i = 0; i<arraySize; i++) {
+			theOutput[i] = theInput[arraySize-i-1];
+		}
+		return theOutput;
+		
+	}
+	
 }
