@@ -2,7 +2,7 @@ import java.io.*;
 
 public class Artifacts {
 	
-	public static String revString(String theInput) {
+	public static String revdStr(String theInput) {
 		
 		String theOutput = "";
 		for(int i = theInput.length()-1; i>=0; i--) {
@@ -12,7 +12,7 @@ public class Artifacts {
 		
 	}
 	
-	public static Object[] revArray (Object[] theInput) {
+	public static Object[] revdArr (Object[] theInput) {
 		
 		int arraySize = theInput.length;
 		Object[] theOutput = new Object[arraySize];
@@ -23,7 +23,7 @@ public class Artifacts {
 		
 	}
 	
-	public static boolean[] revArray (boolean[] theInput) {
+	public static boolean[] revdArr (boolean[] theInput) {
 		
 		int arraySize = theInput.length;
 		boolean[] theOutput = new boolean[arraySize];
@@ -34,7 +34,7 @@ public class Artifacts {
 		
 	}
 	
-	public static byte[] revArray (byte[] theInput) {
+	public static byte[] revdArr (byte[] theInput) {
 		
 		int arraySize = theInput.length;
 		byte[] theOutput = new byte[arraySize];
@@ -45,7 +45,7 @@ public class Artifacts {
 		
 	}
 	
-	public static short[] revArray (short[] theInput) {
+	public static short[] revdArr (short[] theInput) {
 		
 		int arraySize = theInput.length;
 		short[] theOutput = new short[arraySize];
@@ -56,7 +56,7 @@ public class Artifacts {
 		
 	}
 	
-	public static int[] revArray (int[] theInput) {
+	public static int[] revdArr (int[] theInput) {
 		
 		int arraySize = theInput.length;
 		int[] theOutput = new int[arraySize];
@@ -67,7 +67,7 @@ public class Artifacts {
 		
 	}
 	
-	public static long[] revArray (long[] theInput) {
+	public static long[] revdArr (long[] theInput) {
 		
 		int arraySize = theInput.length;
 		long[] theOutput = new long[arraySize];
@@ -78,7 +78,7 @@ public class Artifacts {
 		
 	}
 	
-	public static float[] revArray (float[] theInput) {
+	public static float[] revdArr (float[] theInput) {
 		
 		int arraySize = theInput.length;
 		float[] theOutput = new float[arraySize];
@@ -89,7 +89,7 @@ public class Artifacts {
 		
 	}
 	
-	public static double[] revArray (double[] theInput) {
+	public static double[] revdArr (double[] theInput) {
 		
 		int arraySize = theInput.length;
 		double[] theOutput = new double[arraySize];
@@ -100,7 +100,7 @@ public class Artifacts {
 		
 	}
 	
-	public static char[] revArray (char[] theInput) {
+	public static char[] revdArr (char[] theInput) {
 		
 		int arraySize = theInput.length;
 		char[] theOutput = new char[arraySize];
