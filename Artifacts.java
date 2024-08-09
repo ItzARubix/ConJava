@@ -1,6 +1,15 @@
 import java.io.*;
+import java.util.*;
 
 public class Artifacts {
+
+	public static ArrayList<Object> buildArrayList (Object[] theInput) {
+		ArrayList<Object> theOutput = new ArrayList<Object>();
+		for(int i = 0; i<theInput.length; i++) {
+			theOutput.add(theInput[i]);
+		}
+		return theOutput;
+	}
 	
 	public static String revdStr(String theInput) {
 		
