@@ -27,8 +27,53 @@ public class Artifacts {
 		return theOutput;
 	}
 
-	// TODO: Add buildArrayList method for all other primitive types
-	// (byte, short, long, float, double, char)
+	public static ArrayList<Byte> buildArrayList (byte[] theInput) {
+		ArrayList<Byte> theOutput = new ArrayList<Byte>();
+		for(int i = 0; i<theInput.length; i++) {
+			theOutput.add(theInput[i]);
+		}
+		return theOutput;
+	}
+
+	public static ArrayList<Short> buildArrayList (short[] theInput) {
+		ArrayList<Short> theOutput = new ArrayList<Short>();
+		for(int i = 0; i<theInput.length; i++) {
+			theOutput.add(theInput[i]);
+		}
+		return theOutput;
+	}
+
+	public static ArrayList<Long> buildArrayList (long[] theInput) {
+		ArrayList<Long> theOutput = new ArrayList<Long>();
+		for(int i = 0; i<theInput.length; i++) {
+			theOutput.add(theInput[i]);
+		}
+		return theOutput;
+	}
+
+	public static ArrayList<Float> buildArrayList (float[] theInput) {
+		ArrayList<Float> theOutput = new ArrayList<Float>();
+		for(int i = 0; i<theInput.length; i++) {
+			theOutput.add(theInput[i]);
+		}
+		return theOutput;
+	}
+
+	public static ArrayList<Double> buildArrayList (double[] theInput) {
+		ArrayList<Double> theOutput = new ArrayList<Double>();
+		for(int i = 0; i<theInput.length; i++) {
+			theOutput.add(theInput[i]);
+		}
+		return theOutput;
+	}
+
+	public static ArrayList<Character> buildArrayList (char[] theInput) {
+		ArrayList<Character> theOutput = new ArrayList<Character>();
+		for(int i = 0; i<theInput.length; i++) {
+			theOutput.add(theInput[i]);
+		}
+		return theOutput;
+	}
 
 	// ----------
 	
