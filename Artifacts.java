@@ -10,6 +10,27 @@ public class Artifacts {
 		}
 		return theOutput;
 	}
+
+	public static ArrayList<Integer> buildArrayList (int[] theInput) {
+		ArrayList<Integer> theOutput = new ArrayList<Integer>();
+		for(int i = 0; i<theInput.length; i++) {
+			theOutput.add(theInput[i]);
+		}
+		return theOutput;
+	}
+
+	public static ArrayList<Boolean> buildArrayList (boolean[] theInput) {
+		ArrayList<Boolean> theOutput = new ArrayList<Boolean>();
+		for(int i = 0; i<theInput.length; i++) {
+			theOutput.add(theInput[i]);
+		}
+		return theOutput;
+	}
+
+	// TODO: Add buildArrayList method for all other primitive types
+	// (byte, short, long, float, double, char)
+
+	// ----------
 	
 	public static String revdStr(String theInput) {
 		
@@ -20,6 +41,8 @@ public class Artifacts {
 		return theOutput;
 		
 	}
+
+	// ----------
 	
 	public static Object[] revdArr (Object[] theInput) {
 		
