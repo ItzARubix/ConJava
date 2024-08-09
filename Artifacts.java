@@ -3,8 +3,8 @@ import java.util.*;
 
 public class Artifacts {
 
-	public static ArrayList<Object> buildArrayList (Object[] theInput) {
-		ArrayList<Object> theOutput = new ArrayList<Object>();
+	public static <T> ArrayList<T> buildArrayList (T[] theInput) {
+		ArrayList<T> theOutput = new ArrayList<T>();
 		for(int i = 0; i<theInput.length; i++) {
 			theOutput.add(theInput[i]);
 		}
