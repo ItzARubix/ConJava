@@ -1,9 +1,9 @@
-# HiddenGems
+# JavaArtifacts
 A lightweight, multipurpose, Java package (that is currently under construction).
 
-**HiddenGems** is a very simple Java package designed to increase project speed by implementing the methods that you _could_ program, but would really rather not. 
+**JavaArtifacts** is a very simple Java package designed to increase project speed by implementing the methods that you _could_ program, but would really rather not. 
 
-As of now, the only present file in this package is **Artifacts**, which is also still thusly unfinished.
+As of now, the only present file in this package is just called **Artifacts**, which is also still thusly unfinished.
 
 ## Artifacts
 
